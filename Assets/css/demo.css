@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Smooch+Sans:wght@100..900&display=swap');
+body{
+    
+    margin: 0;
+
+}
+#hero {
+    padding-top: 50px;
+    height: 100vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url('bgimg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 100px;
+}
+
+#myimg img{
+    width: 150px;
+    border-radius: 50%;
+}
+#myimg{
+    justify-content: center;
+    align-content: center;
+}
+#myinfo h1 {
+    font-size: 40px;
+}
+#webdevim img{
+    width: 70%;
+}
+#webdevim{
+    position: absolute;
+    left: 20%;
+    top: 60%;
+}
+#webdevim2 img{
+    width: 70%;
+}
+#webdevim2{
+    position: absolute;
+    right: 20%;
+    top: 70%;
+}
+
+body {
+    font-family: 'Source Serif 4', serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+    background-image: url('bgimg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+#logo {
+    border-radius: 50%;
+    background-color: white;
+    padding: 10px;
+    width: 10px;
+    height: 10px;
+    font-size: 15px;
+    text-align: center;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 60px;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #666464;
+    font-weight: bold;
+}
+
+.social-media a {
+    margin-left: 10px;
+}
+
+.social-media img {
+    height: 30px;
+}
+
+#mrinh1{
+    font-size: 66px;
+    width: 500px;
+    
+}
+#mrinp {
+    width: 500px;
+    font-size: 20px;
+}
+#moreinfo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#cta-btn {
+    border-radius: 20px;
+    background-color: white;
+    color: black;
+    font-size: 17px;
+    padding: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+body {
+    font-family: "Smooch Sans", sans-serif;
+}
+.aboutme {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px;
+    background-color: #f8f9fa;
+    margin-bottom: 10%;
+}
+#abth1 h1{
+    font-size: 80px;
+    margin-left: 10%;
+    width: 700px;
+}
+#abtp {
+text-align: center;
+justify-content: center;
+align-items: center;
+}
+#abtp h2 {
+    font-size: 20px;
+    font-weight: 500;
+}
+#abtp h1 {
+    font-size: 40px;
+    font-weight: 600;
+}
+#abtp p{
+    text-align: start;
+    width: 700px;
+    margin: 0 auto;
+    display: block;
+    font-size: 25px;
+}
+#abtp a {
+    text-decoration: none;
+    color: blue;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
